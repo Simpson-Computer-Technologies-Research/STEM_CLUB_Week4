@@ -9,7 +9,9 @@ https://replit.com/@realTristan/Python-STEM-Club4
 
 <h3>Project Must Include</h3>
 
-- Minimum of 1 http request
+- Minimum of 1 class
+- Minimum of 1 class variable
+- Minimum of 1 class function
 
 
 # License
