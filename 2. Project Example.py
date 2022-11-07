@@ -3,7 +3,7 @@ class User:
   name = "Tristan"
   age = 17
   
-  def update_age(new_age):
+  def update_age(self, new_age):
     age = new_age
     
  
