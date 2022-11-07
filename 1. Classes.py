@@ -6,7 +6,7 @@
 # // Note:
 # // You do not need to have an __init__(self) function.
 class MyClass:
-    name: str = "Tristan"
+    name = "Tristan"
 
     # // Whenever the Class is initalized
     def __init__(self):
@@ -18,7 +18,7 @@ class MyClass:
 
 
     # // A function accessable through the class
-    def print_person(self, age: int = 0):
+    def print_person(self, age):
         print(f"{self.name}: {age}")
 
 
@@ -40,9 +40,9 @@ from dataclasses import dataclass
 # // Store variables in a struct-like class
 @dataclass
 class Person:
-    name: str
-    age: int
-    birthday: str
+    name
+    age
+    birthday
 
 # // Create a new person variable
 person: Person = Person("tristan", 16, "October 31st")
